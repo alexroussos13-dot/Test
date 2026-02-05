@@ -136,7 +136,7 @@ footer {
 @media (max-width: 600px) {
   .hero{
     height: 30rem;
-    padding: 2rem;
+    text-align: center;
   }
   .hero h1 {
     font-size: 2rem;
