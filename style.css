@@ -113,7 +113,7 @@ footer {
 @media (max-width: 1000px) {
   .hero{
     height: 20rem;
-    padding: 4.5rem;
+    padding: 2.5rem;
   }
   .hero h1 {
     font-size: 2rem;
@@ -121,6 +121,7 @@ footer {
   
   .hero p {
     font-size: 1rem;
+    max-height: 5rem;
   }
   
   .section-title {
