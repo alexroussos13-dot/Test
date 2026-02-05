@@ -110,10 +110,33 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .hero{
     height: 20rem;
-    padding: 2.5rem;
+    padding: 5rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    max-height: 5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero{
+    height: 30rem;
+    padding: 2rem;
   }
   .hero h1 {
     font-size: 2rem;
